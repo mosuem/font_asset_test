@@ -11,12 +11,11 @@ class MainApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Custom Fonts',
-      theme: ThemeData(fontFamily: 'BBH Bartle'),
       home: Scaffold(
         body: Center(
           child: Text(
             'Hello world',
-            style: TextStyle(fontFamily: 'DancingScript'),
+            style: TextStyle(fontFamily: 'BBHBartle'),
           ),
         ),
       ),

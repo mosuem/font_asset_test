@@ -9,6 +9,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  hooks: ^1.0.0
 
 dev_dependencies:
   flutter_test:
@@ -17,15 +18,17 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-  fonts:
-    - family: RobotoMono
-      fonts:
-        - asset: fonts/Roboto-Regular.ttf
-        - asset: fonts/Roboto-Bold.ttf
-          weight: 700
-    - family: BBHBartle
-      fonts: 
-        - asset: fonts/BBHBartle-Regular.ttf
-    - family: DancingScript
-      fonts:
-      - asset: fonts/dancing_script.ttf
+  config:
+    enable-dart-data-assets: true
+  # fonts:
+  #   - family: RobotoMono
+  #     fonts:
+  #       - asset: fonts/Roboto-Regular.ttf
+  #       - asset: fonts/Roboto-Bold.ttf
+  #         weight: 700
+  #   - family: BBHBartle
+  #     fonts: 
+  #       - asset: fonts/BBHBartle-Regular.ttf
+  #   - family: DancingScript
+  #     fonts:
+  #     - asset: fonts/dancing_script.ttf
