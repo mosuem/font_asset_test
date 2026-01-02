@@ -78,10 +78,9 @@ packages:
   font_asset:
     dependency: "direct main"
     description:
-      name: font_asset
-      sha256: "7c6b3127eb4299b3d2bfaecff41754054b04831b80ecf9c21bccd9979a338094"
-      url: "https://pub.dev"
-    source: hosted
+      path: "../font_asset"
+      relative: true
+    source: path
     version: "0.0.4"
   hooks:
     dependency: "direct main"
@@ -155,6 +154,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.17.0"
+  mime:
+    dependency: transitive
+    description:
+      name: mime
+      sha256: "41a20518f0cb1256669420fdba0cd90d21561e560ac240f26ef8322e45bb7ed6"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.0"
   path:
     dependency: transitive
     description:

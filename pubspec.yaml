@@ -17,9 +17,9 @@ dev_dependencies:
     sdk: flutter
   flutter_lints: ^6.0.0
 
-# dependency_overrides:
-#   font_asset:
-#     path: ../font_asset/
+dependency_overrides:
+  font_asset:
+    path: ../font_asset/
 
 flutter:
   uses-material-design: true

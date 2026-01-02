@@ -13,9 +13,12 @@ class MainApp extends StatelessWidget {
       title: 'Custom Fonts',
       home: Scaffold(
         body: Center(
-          child: Text(
-            'Hello world',
-            style: TextStyle(fontFamily: 'BBHBartle'),
+          child: Column(
+            children: [
+              const Icon(Icons.abc),
+              Text('Hello world', style: TextStyle(fontFamily: 'BBHBartle')),
+              Text('Hello world'),
+            ],
           ),
         ),
       ),
